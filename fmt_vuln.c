@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+void authentication(int token){
+    if(token == 0xdeadbeef)
+        printf("you win!\n");
+    else
+        printf("try again!\n");
+}
 int main(int argc, char *argv[]) {
     char text[1024];
     static int test_val = -72;
@@ -16,5 +23,7 @@ int main(int argc, char *argv[]) {
     printf("\n");
     // Debug output
     printf("[*] test_val @ 0x%08x = %d 0x%08x\n", &test_val, test_val, test_val);
+
+    authentication(test_val);
     // exit(0);
 }
