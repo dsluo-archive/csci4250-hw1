@@ -15,7 +15,7 @@ This homework accounts for 5 points.
 1. Try attacks by manipulating the argument to the program. You can directly begin your exploit based on the script we used in class.
 2. Printing out "you win!" indicates the success of your exploit.
 3. Describe your experience (including screen shots and commands) and explain all the steps you have done to exploit the format string vulnerabilit.
-4. Submit a PDF report through ELC.
+4. Submit a PDF report with **your final script** through ELC.
 
 ## References
 
