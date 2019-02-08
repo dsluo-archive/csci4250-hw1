@@ -8,6 +8,10 @@ In this project, you will leverage a format string vulnerability in the program 
 
 This homework accounts for 5 points.
 
+## **Bonus**
+
+If you can craft more efficient payload (e.g., not overwriting `test_val` byte by byte), you can get 2 bonus points.
+
 **\*\* Use your VM for this project \*\***
 
 ## Submission
