@@ -12,7 +12,7 @@ This homework accounts for **5 points**.
 
 If you can craft more efficient payload (e.g., not overwriting `test_val` byte by byte), you can get at most **2 bonus points**.
 
-To be sepecific, if you used only 2 writes without `short write` technique (refer to [1]), you will get 1 bonus point. If you used `short write` technique, you get 2 bonus points.
+To be sepecific, if you used only 2 writes without the `short write` technique (refer to [1]), you will get 1 bonus point. If you used `short write` technique, you get 2 bonus points. Other interesting forms are also considered.
 
 **\*\* Use your VM for this project \*\***
 
