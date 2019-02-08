@@ -6,11 +6,11 @@ Due date: 11:59pm, 2/15/2019
 
 In this project, you will leverage a format string vulnerability in the program `fmt_vuln`. The program prints out whatever is provided by the user in the argument via `printf`. A static variable in the program `test_val` controls the authentication process. Only if you can overwrite `test_val` with `0xdeadbeef` can you successfully go through authentication, in which case the program prints "you win!"
 
-This homework accounts for 5 points.
+This homework accounts for **5 points**.
 
 ## **Bonus**
 
-If you can craft more efficient payload (e.g., not overwriting `test_val` byte by byte), you can get 2 bonus points.
+If you can craft more efficient payload (e.g., not overwriting `test_val` byte by byte), you can get **2 bonus points**.
 
 **\*\* Use your VM for this project \*\***
 
