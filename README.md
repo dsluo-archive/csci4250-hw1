@@ -10,7 +10,9 @@ This homework accounts for **5 points**.
 
 ## **Bonus**
 
-If you can craft more efficient payload (e.g., not overwriting `test_val` byte by byte), you can get **2 bonus points**.
+If you can craft more efficient payload (e.g., not overwriting `test_val` byte by byte), you can get at most **2 bonus points**.
+
+To be sepecific, if you used only 2 writes without [`short write`][1] technique, you will get 1 bonus point. If you used `short write` technique, you get 2 bonus points.
 
 **\*\* Use your VM for this project \*\***
 
@@ -23,7 +25,7 @@ If you can craft more efficient payload (e.g., not overwriting `test_val` byte b
 
 ## References
 
-1. [Exploiting Format String Vulnerabilities (http://inst.eecs.berkeley.edu/~cs161/sp08/Notes/formatstring-1.2.pdf)](http://inst.eecs.berkeley.edu/~cs161/sp08/Notes/formatstring-1.2.pdf)
+[1]. [Exploiting Format String Vulnerabilities (http://inst.eecs.berkeley.edu/~cs161/sp08/Notes/formatstring-1.2.pdf)](http://inst.eecs.berkeley.edu/~cs161/sp08/Notes/formatstring-1.2.pdf)
 
 
 
